@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+.services {
+    overflow-x: hidden;
+}
+.card {
+    border: none;
+    height: auto;
+}
+.section__title {
+    text-align: center;
+    color: #e78533;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#underline > span {
+    display: block;
+    width: 10%;
+    height: 2px;
+    margin-top: 15px;
+    margin-left: 45% !important;
+    margin-right: 45% !important;
+    border-radius: 999999px;
+    background-color: #e78533;
+    margin-bottom: 150px;
+}
+.services__container {
+    margin: 50px 3%;
+}
+.services__content {
+    padding-top: 0.45rem;
+    border: 2px solid #e78533;
+    border-radius: 0.8rem;
+    text-align: center;
+    overflow: hidden;
+}
+.serviceImg {
+    width: 95%;
+    height: auto;
+    border-radius: 0.6rem 0.6rem 0.3rem 0.3rem;
+}
+.services__title {
+    font-size: 1.25rem;
+    color: #d47c34;
+    margin: 0.8rem 0;
+}
+.services__description {
+    font-family: "Raleway", sans-serif; 
+    text-align: justify;
+    padding: 3%;
+    color: #545454;
+    font-weight: 500;
+}
+.services__content,
+.services__description,
+.services__title {
+    transition: 0.5s;
+}
+.services__content:hover {
+    background-color: #e78533;
+}
+.services__content:hover .services__title {
+    color: #fffafa;
+}
+.services__content:hover .services__description {
+    color: #fffafa;
+}
+.card {
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 414px) {
+    #underline > span {
+        width: 20%;
+        height: 2px;
+        margin-left: 40% !important;
+        margin-right: 40% !important;
+    }
+}

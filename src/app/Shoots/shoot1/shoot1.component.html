@@ -1,0 +1,15 @@
+
+<div class="body">
+  <h1 class="section__title">PORTFOLIO</h1>
+  <div id="underline">
+    <span></span>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 col-sm-6 col-lg-4 mb-2 imgcontainer"  *ngFor="let item of items; index as i"  >
+        <a class="example-image-link" [routerLink]="item.data.thumb" data-lightbox="example-1"><img
+            class="example-image" [src]="item.data.thumb" alt="image-1" /></a>
+      </div>
+    </div>
+  </div>
+</div>

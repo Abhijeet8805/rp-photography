@@ -1,0 +1,119 @@
+<div class="body">
+    <div class="home" id="home">
+        <img src="https://images.unsplash.com/photo-1512620522629-ba18bef09290?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+            alt="no image" class="home__img">
+        
+        <div class="home__container">
+            <div class="home__data" [ngsReveal]="{ reset: true}">
+                <span class="home__data-subtitle">Welcome to</span>
+                <h1 class="home__data-title">RP PHOTOGRAPHY<br></h1>
+                <a href="https://wa.me/919421850032/?text=I%20Have%20An%20Enquiry%20About%20Your%20services"
+                    target="_blank"><button type="button" class="btn btn-outline-light rounded-lg">Contact</button></a>
+            </div>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="row aboutmecard">
+        <div class=" mb-3 container1" style="text-align: center ;">
+            <h2 class="section__title">ABOUT ME</h2>
+            <div class="underline">
+                <span></span>
+            </div>
+            <!-- <hr class="hr"> -->
+        </div>
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-3 about__section1">
+            <img src="./../../assets/image1/about.jpg" alt="" class="aboutimage">
+        </div>
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-9 about__section2">
+
+            <p class="para pb-2">
+                &nbsp; My name is Rohan Pujari (RP). I am a professional photographer based in Pune, Maharashtra
+                specializing in B.A.Photography. My photographs also got featured in a Kesari newspaper.
+                I am currently pursuing my photography degree from TMV college, one of the best institutions for
+                photography in India.
+            </p>
+            <!-- <p class="para pb-2">
+                &nbsp; I first fell in love with photography in high school where I learned about the of photography and
+                editing photographs. Although my camera has changed over the years it has always been my most prized
+                possession. I love being able to capture memories and to capture the beauty of the world.
+            </p> -->
+            <p class="para pb-2">
+                &nbsp; As a photographer, I always try to create photographs that you will love and cherish for many
+                years to
+                come. I would be honored to capture part of your life.
+                I hope, that you will enjoy with my photo portfolio and after that we can create something great
+                together!
+            </p>
+
+            <a routerLink="/about" ng-view autoscroll><button type="button" class="btn btn-outline rounded-pill">Know
+                    More</button></a>
+        </div>
+    </div>
+
+
+    <div class="discover section mt-5 mb-5" id="discover">
+        <h2 class="section__title">PHOTO GALLERY</h2>
+        <div class="underline">
+            <span></span>
+        </div>
+        <!-- <hr class="hr"> -->
+
+        <div class="discover__container  swiper-container mb-3">
+            <div class="swiper-wrapper">
+
+                <div class="discover__card swiper-slide">
+                    <img src="/../../assets/image1/img4.jpeg" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <!-- <h2 class="discover__title">Click & edit by</h2>
+                        <span class="discover__description">RP PHOTOGRAPHY</span> -->
+                    </div>
+                </div>
+
+
+                <div class="discover__card swiper-slide">
+                    <img src="/../../assets/image1/img13.jpeg" alt="" class="discover__img">
+                    <div class="discover__data">
+                    </div>
+                </div>
+
+
+                <div class="discover__card swiper-slide">
+                    <img src="/../../assets/image1/img5.jpeg" alt="" class="discover__img">
+                    <div class="discover__data">
+                    </div>
+                </div>
+
+
+                <div class="discover__card swiper-slide">
+                    <img src="/../../assets/image1/img8.jpeg" alt="" class="discover__img">
+                    <div class="discover__data">
+                    </div>
+                </div>
+                <div class="discover__card swiper-slide">
+                    <img src="/../../assets/image3/img1.jpeg" alt="" class="discover__img">
+                    <div class="discover__data">
+
+                    </div>
+                </div>
+                <div class="discover__card swiper-slide">
+                    <img src="/../../assets/image4/img4.jpeg" alt="" class="discover__img">
+                    <div class="discover__data">
+                    </div>
+                </div>
+                <div class="discover__card swiper-slide">
+                    <img src="/../../assets/image5/img5.jpeg" alt="" class="discover__img">
+                    <div class="discover__data">
+
+                    </div>
+                </div>
+                <div class="discover__card swiper-slide">
+                    <img src="/../../assets/image6/img1.jpeg" alt="" class="discover__img">
+                    <div class="discover__data">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

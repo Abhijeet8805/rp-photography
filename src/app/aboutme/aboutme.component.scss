@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
+* {
+  top: 0;
+}
+
+.heading {
+  text-align: center;
+  color: #e78533;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 400 !important;
+  padding-top: 150px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #e78533;
+  text-align: center;
+}
+#underline > span {
+  display: block;
+  width: 10%;
+  height: 2px;
+  margin-top: 15px;
+  margin-left: 45% !important;
+  margin-right: 45% !important;
+  border-radius: 999999px;
+  background-color: #e78533;
+  margin-bottom: 50px;
+}
+.aboutimg {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0% 3% !important;
+  float: left;
+}
+
+.paragraph {
+  font-family: raleway, sans-serif;
+  text-align: left;
+  margin-top: 30px;
+  color: #545454;
+  font-weight: 500;
+  margin: 2% 3%;
+}
+
+@media screen and (max-width: 414px) {
+  #underline > span {
+    width: 20%;
+    height: 2px;
+    margin-left: 40% !important;
+    margin-right: 40% !important;
+  }
+  .aboutimg {
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px !important;
+    float: none;
+  }
+}
