@@ -116,13 +116,13 @@ if (window.location.href === dataUrl1) {
     })
   }
 } else if (window.location.href === dataUrl4) {
-  for (var i = 1; i < 13; i++) {
+  for (var i = 1; i < 12; i++) {
     data.push({
       previewUrl: "/../../assets/image4/img" + i + ".jpeg"
     })
   }
 } else if (window.location.href === dataUrl5) {
-  for (var i = 1; i < 11; i++) {
+  for (var i = 1; i < 10; i++) {
     data.push({
       previewUrl: "/../../assets/image5/img" + i + ".jpeg"
     })
